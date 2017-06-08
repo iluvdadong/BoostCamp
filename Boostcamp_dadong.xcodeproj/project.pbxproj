@@ -1,0 +1,276 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		49EFAA8E1EE924D8009EA225 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49EFAA8D1EE924D8009EA225 /* main.swift */; };
+		49EFAA951EE925F7009EA225 /* StudentInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49EFAA941EE925F7009EA225 /* StudentInfo.swift */; };
+		49EFAA981EE9289F009EA225 /* FileMan.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49EFAA971EE9289F009EA225 /* FileMan.swift */; };
+		49EFAA9A1EE92D1E009EA225 /* GradeManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49EFAA991EE92D1E009EA225 /* GradeManager.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		49EFAA881EE924D8009EA225 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		49EFAA8A1EE924D8009EA225 /* Boostcamp_dadong */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Boostcamp_dadong; sourceTree = BUILT_PRODUCTS_DIR; };
+		49EFAA8D1EE924D8009EA225 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		49EFAA941EE925F7009EA225 /* StudentInfo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StudentInfo.swift; sourceTree = "<group>"; };
+		49EFAA961EE92629009EA225 /* students.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; name = students.json; path = ../../../students.json; sourceTree = "<group>"; };
+		49EFAA971EE9289F009EA225 /* FileMan.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FileMan.swift; sourceTree = "<group>"; };
+		49EFAA991EE92D1E009EA225 /* GradeManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GradeManager.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		49EFAA871EE924D8009EA225 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		49EFAA811EE924D8009EA225 = {
+			isa = PBXGroup;
+			children = (
+				49EFAA8C1EE924D8009EA225 /* Boostcamp_dadong */,
+				49EFAA8B1EE924D8009EA225 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		49EFAA8B1EE924D8009EA225 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				49EFAA8A1EE924D8009EA225 /* Boostcamp_dadong */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		49EFAA8C1EE924D8009EA225 /* Boostcamp_dadong */ = {
+			isa = PBXGroup;
+			children = (
+				49EFAA961EE92629009EA225 /* students.json */,
+				49EFAA8D1EE924D8009EA225 /* main.swift */,
+				49EFAA941EE925F7009EA225 /* StudentInfo.swift */,
+				49EFAA971EE9289F009EA225 /* FileMan.swift */,
+				49EFAA991EE92D1E009EA225 /* GradeManager.swift */,
+			);
+			path = Boostcamp_dadong;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		49EFAA891EE924D8009EA225 /* Boostcamp_dadong */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 49EFAA911EE924D8009EA225 /* Build configuration list for PBXNativeTarget "Boostcamp_dadong" */;
+			buildPhases = (
+				49EFAA861EE924D8009EA225 /* Sources */,
+				49EFAA871EE924D8009EA225 /* Frameworks */,
+				49EFAA881EE924D8009EA225 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Boostcamp_dadong;
+			productName = Boostcamp_dadong;
+			productReference = 49EFAA8A1EE924D8009EA225 /* Boostcamp_dadong */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		49EFAA821EE924D8009EA225 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = Sohn;
+				TargetAttributes = {
+					49EFAA891EE924D8009EA225 = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = 23EFP3FERN;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 49EFAA851EE924D8009EA225 /* Build configuration list for PBXProject "Boostcamp_dadong" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 49EFAA811EE924D8009EA225;
+			productRefGroup = 49EFAA8B1EE924D8009EA225 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				49EFAA891EE924D8009EA225 /* Boostcamp_dadong */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		49EFAA861EE924D8009EA225 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				49EFAA981EE9289F009EA225 /* FileMan.swift in Sources */,
+				49EFAA8E1EE924D8009EA225 /* main.swift in Sources */,
+				49EFAA951EE925F7009EA225 /* StudentInfo.swift in Sources */,
+				49EFAA9A1EE92D1E009EA225 /* GradeManager.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		49EFAA8F1EE924D8009EA225 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		49EFAA901EE924D8009EA225 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		49EFAA921EE924D8009EA225 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 23EFP3FERN;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		49EFAA931EE924D8009EA225 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 23EFP3FERN;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		49EFAA851EE924D8009EA225 /* Build configuration list for PBXProject "Boostcamp_dadong" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				49EFAA8F1EE924D8009EA225 /* Debug */,
+				49EFAA901EE924D8009EA225 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		49EFAA911EE924D8009EA225 /* Build configuration list for PBXNativeTarget "Boostcamp_dadong" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				49EFAA921EE924D8009EA225 /* Debug */,
+				49EFAA931EE924D8009EA225 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 49EFAA821EE924D8009EA225 /* Project object */;
+}
